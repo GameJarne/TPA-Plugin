@@ -1,0 +1,17 @@
+name: TpaPlugin
+version: '${project.version}'
+main: me.gamejarne.tpaplugin.TpaPlugin
+api-version: 1.16
+authors: [GameJarne]
+description: A Simple Tpa Plugin by GameJarne.
+website: https://github.com/GameJarne
+
+commands:
+  tpa:
+    description: Send tpa requests to a player.
+    usage: /<command> player
+    aliases:
+      - tprequest
+  tpaccept:
+    description: Accept a tpa request from a player.
+    usage: /<command> player
