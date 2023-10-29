@@ -15,11 +15,11 @@ class TpaManager
 
     public fun sendRequest(from: Player, to: Player)
     {
-        /* if (from.uniqueId.equals(to.uniqueId))
+        if (from.uniqueId.equals(to.uniqueId))
         {
             from.sendMessage(ChatColor.RED + "You can't send a teleport request to yourself!")
             return
-        } */
+        }
 
         for (requestKey in requests.keys)
         {
